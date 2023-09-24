@@ -4,7 +4,7 @@ import dpphoto from '../images/dpphoto.webp'
 const Videos = () => {
     return (
         <div className='cursor-pointer'>
-            <img src={dpphoto} alt="" className='flex z-50 lg:w-[25rem] w-[20rem] lg:h-[15rem] h-[12rem] object-cover rounded-[10px]'/>
+            <img src={dpphoto} alt="" className='flex z-50 lg:w-[25rem] w-[100vw] lg:h-[15rem] h-[12rem] object-cover rounded-[10px]'/>
             <div className='flex lg:w-[24rem] w-[20rem] h-[3rem] mt-3 gap-2'>
                 <img src={dpphoto} alt="" className='w-[40px] h-[40px] object-cover rounded-[50%] ' />
             <p className=' overflow-hidden font-bold'>hello thos is sudp new new video thank for watching hello thos is sudp new new video thank for watching </p>

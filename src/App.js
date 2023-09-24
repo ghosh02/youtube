@@ -4,8 +4,10 @@ import Sidebar from './component/sidebar'
 function App() {
   return (
 <>
+<div>
 < Header/>
 <Sidebar/>
+</div>
 </>
   );
 }
